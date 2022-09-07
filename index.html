@@ -12,7 +12,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="assets/style/main.css">
   <link rel="stylesheet" href="assets/style/style.css">
-  <title>MVC-java</title>
+  <title>scoreKeeper-mvc</title>
 </head>
 
 <body>
@@ -21,16 +21,23 @@
       <a class="navbar-brand ms-3" href="#">
         <img src="https://codeworks.blob.core.windows.net/public/assets/img/cw-mark.png" height="45" alt=""
           loading="lazy">
-        <span class="ms-2">MVC-java</span>
+        <span class="ms-2">scoreKeeper-mvc</span>
       </a>
     </nav>
   </header>
   <main>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <div id="app"></div>
-        </div>
+      <div class="row" id="snacks">
+        <!-- NOTE to access your controller you must go through the layers -->
+        <!-- <button class="btn btn-primary" onclick="app.playersController.scorePoint('Mick')">Mick</button>
+          <button class="btn btn-danger" onclick="app.playersController.scorePoint('Jeffe')">Jeffe</button> -->
+        <!-- STUB player -->
+        <!-- <div class="col-md-6 text-center p-2 bg-light elevation-2">
+          <h3>Mick</h3>
+          <h3 class="text-warning">10</h3>
+          <button class="btn btn-primary w-100">+</button>
+        </div> -->
+        <!-- end player -->
       </div>
     </div>
   </main>
